@@ -26,7 +26,6 @@ from . import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("home/", views.home, name="home"), #? /home/ this a path , and function was in views.home, third optional name argument is just a nickname used for reusable label 
-
     path("contact/", views.contactus, name= "contact"),
     path("about/", views.about, name= "about"),
 ]
